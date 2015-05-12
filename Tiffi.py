@@ -26,7 +26,7 @@ class NotValidPoint(ValueError): pass
 
 def find_martians(pos, path):
     """
-    function to check the input, call the function for moving tiffi and return the final position 
+    function to check the input, call the function for moving the rover and return the final position 
     """
     if not isinstance(pos,str) or not isinstance(path,str):
         raise NotStringError('for input just 2 strings are allowed')
